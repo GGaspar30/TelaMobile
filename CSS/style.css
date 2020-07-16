@@ -1,0 +1,213 @@
+.container {
+
+    width: 375px;
+    height: 772px;
+    position: absolute;
+    border: 2px solid #F2F2F2;
+
+}
+
+.baixo {
+    width: 375px;
+    height: 363px;
+    background-color: #fff;
+    position: relative;
+    box-shadow: 0px -4px 4px 0px #0000001A;
+    border-radius: 30px;
+    bottom: 367px;
+}
+
+.prt {
+    padding-left: 17%;
+}
+
+#bus {
+
+    width: 88%;
+    padding: 17px;
+    border-radius: 30px;
+    background-color: #efefef;
+    border: none;
+    font-size: 15px;
+    color: #091D3C;
+    font-family: Barlow-SemiBold;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 4%;
+}
+
+.inf {
+
+    text-align: center;
+    padding-top: 10%;
+}
+
+@font-face {
+    font-family: Barlow-Bold;
+    src: url(../Fonts/Barlow-Bold.ttf)
+}
+
+@font-face {
+    font-family: Barlow-Medium;
+    src: url(../Fonts/Barlow-Medium.ttf)
+}
+
+@font-face {
+    font-family: Barlow-SemiBold;
+    src: url(../Fonts/Barlow-SemiBold.ttf)
+}
+
+
+.button {
+    display: flex;
+    align-items: center;
+    background-color: #091D3C;
+    color: #fff;
+    width: 308px;
+    height: 47px;
+    border-radius: 30px;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: roboto;
+    margin-left: 8%;
+}
+
+#txt {
+    font-family: Barlow-Medium;
+    font-size: 14px;
+    color: #787878;
+}
+
+.placa_txt {
+    font-family: Barlow-Medium;
+    font-size: 12px;
+    color: #A4A4A4;
+    text-transform: uppercase;
+}
+
+span {
+    font-family: Barlow-Bold;
+    color: #091D3C;
+    font-size: 20px;
+    text-align: center;
+}
+
+#texto-button {
+    margin-right: 2%;
+}
+
+#seta {
+    transform: rotate(-45deg);
+    border-bottom: 2px solid #fff;
+    border-right: 2px solid #fff;
+    width: 7px;
+    height: 7px;
+}
+
+.numero_plc {
+    font-size: 27px;
+    color: #091D3C;
+    font-family: Barlow-Bold;
+}
+
+#traco {
+    border-top: 2px solid #fff;
+    width: 12px;
+    margin-right: -8px;
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    padding: 18px;
+}
+
+.footer {
+
+    background-color: #F9F9F9;
+    height: 76px;
+    position: relative;
+    margin-top: 52px;
+    border-top: 1px solid #F2F2F2;
+    display: flex;
+    align-items: center;
+
+
+
+}
+
+#mapContainer {
+
+    width: 375px;
+    height: 772px;
+}
+
+.numero_prt {
+    font-family: Barlow-Bold;
+    color: #091D3C;
+    font-size: 12px;
+    background-color: #EFEFEF;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.prt_txt {
+    font-family: Barlow-Medium;
+    color: #A4A4A4;
+    font-size: 12px;
+    height: 18px;
+}
+
+.marker {
+    width: 19px;
+    height: 19px;
+    background-color: #091D3C;
+    border-radius: 30px;
+}
+
+.mapboxgl-ctrl-attrib.mapboxgl-compact:after,
+a.mapboxgl-ctrl-logo {
+    display: none ! important;
+}
+
+#square {
+    margin-left: -60px;
+    margin-right: 23px;
+    cursor: pointer;
+}
+
+.mapboxgl-popup-anchor-bottom .mapboxgl-popup-tip {
+
+    border-top: 19px solid #091d3c !important;
+    border-right: 1px solid #091d3c !important;
+    border-left: 1px solid #091d3c !important;
+    margin-bottom: 9px !important;
+}
+
+
+.mapboxgl-popup-close-button {
+    display: none !important;
+}
+
+
+.mapboxgl-popup-content {
+    background: #091d3c !important;
+    padding: 0 !important;
+    pointer-events: auto;
+    font-size: 5px;
+    width: 116px;
+    color: #fff !important;
+    font-family: Barlow-Medium !important;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
